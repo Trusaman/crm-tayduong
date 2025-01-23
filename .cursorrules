@@ -1,0 +1,10 @@
+using only Nextjs, Typescript
+if use toast, follow this format:
+import { useToast } from "@/hooks/use-toast";
+const { toast } = useToast();  
+toast({
+                title: "Error",
+                description:
+                    "An error occurred while submitting the form. Please try again.",
+                variant: "destructive",
+            });

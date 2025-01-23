@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import type { ExpenseTemplate } from "@/lib/columns";
 import { mockData } from "@/lib/mock-data";
 
-export async function GET(request: Request) {
+export async function GET() {
     try {
         // Here you would typically fetch data from your database
         // For this example, we'll use the mock data
